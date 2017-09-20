@@ -1,16 +1,13 @@
 import { Meteor } from 'meteor/meteor';
-import { check } from 'meteor/check';
-import { Accounts } from 'meteor/accounts-base';
+import { check, Match } from 'meteor/check';
 import editProfile from './edit-profile';
 import rateLimit from '../../../modules/rate-limit';
 
 Meteor.methods({
-  'users.sendVerificationEmail': function usersSendVerificationEmail() {
-    return Accounts.sendVerificationEmail(this.userId);
-  },
   'users.editProfile': function usersEditProfile(profile) {
     check(profile, {
       emailAddress: String,
+      password: Match.Optional(Object),
       profile: {
         name: {
           first: String,
@@ -29,7 +26,6 @@ Meteor.methods({
 
 rateLimit({
   methods: [
-    'users.sendVerificationEmail',
     'users.editProfile',
   ],
   limit: 5,

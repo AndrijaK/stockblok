@@ -13,12 +13,8 @@ const EditDocument = ({ doc, history }) => (doc ? (
   </div>
 ) : <NotFound />);
 
-EditDocument.defaultProps = {
-  doc: null,
-};
-
 EditDocument.propTypes = {
-  doc: PropTypes.object,
+  doc: PropTypes.object.isRequired,
   history: PropTypes.object.isRequired,
 };
 
