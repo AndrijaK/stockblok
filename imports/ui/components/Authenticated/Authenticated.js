@@ -2,14 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
 
-const Authenticated = ({ loggingIn, authenticated, component, path, exact, ...rest }) => (
+const Authenticated = ({ loggingIn, authenticated, component, ...rest }) => (
   <Route
-    path={path}
-    exact={exact}
+    {...rest}
     render={props => (
       authenticated ?
-        (React.createElement(component, { ...props, ...rest, loggingIn, authenticated })) :
-        (<Redirect to="/login" />)
+      (React.createElement(component, { ...props, loggingIn, authenticated })) :
+      (<Redirect to="/logout" />)
     )}
   />
 );

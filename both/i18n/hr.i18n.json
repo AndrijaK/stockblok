@@ -1,0 +1,111 @@
+{
+"_locale": "hr-HR",
+"_namespace": "common",
+"publicNav":{
+    "Languages": "Jezici",
+    "Login": "Prijava",
+    "SignUp": "Registracija"
+},
+"authNav":{
+      "Dashboard": "Upravljačka ploča",
+      "CodeList": "Šifrarnik",
+      "Workers": "Radnici",
+      "Suppliers": "Dobavljači",
+      "Invoices": "Računi",
+      "Articles": "Artikli",
+      "Storages": "Skladišta",
+      "ListCodes": "Lista šifri",
+      "AddCode": "Dodaj šifru",
+      "ListWorkers": "Lista radnika",
+      "AddWorker": "Dodaj radnika",
+      "ListSuppliers": "Lista dobavljača",
+      "AddSupplier": "Dodaj dobavljača",
+      "ListInvoices": "Lista računa",
+      "AddInvoice": "Dodaj račun",
+      "ListArticles": "Lista artikala",
+      "AddArticle": "Dodaj artikl",
+      "ListStorages": "Lista skladišta",
+      "AddStorage": "Dodaj skladište",
+      "Profile": "Profil",
+      "Logout": "Odjava"
+},
+
+"dashboard":{
+  "Codes":"Šifre",
+  "Workers":"Radnici",
+  "Suppliers":"Dobavljači",
+  "Invoices":"Računi",
+  "Articles":"Artikli",
+  "Storages":"Skladišta",
+  "Notifications":"Obavijesti"
+},
+
+"codelists":{
+  "Code":"Šifra",
+  "Description":"Opis",
+  "CreatedAt":"Datum kreiranja",
+  "Actions":"Akcije"
+},
+
+"addCode":{
+  "Heading":"Dodaj novu šifru"
+},
+
+"codeListEditor":{
+  "CodeValue":"Naziv šifre",
+  "CodeDescription":"Opis šifre",
+  "CodeValuePlaceholder":"Unesite šifru...",
+  "CodeDescriptionPlaceholder":"Dodaj opis šifre...",
+  "AddCodeButtonLabel":"Dodaj šifru",
+  "SaveChangesButtonLabel":"Spremi promjene"
+},
+
+"workers":{
+  "Name":"Ime",
+  "Lastname":"Prezime",
+  "Position":"Pozicija",
+  "CreatedAt":"Datum kreiranja",
+  "Actions":"Akcije"
+},
+
+"addWorker":
+{
+  "Heading":"Dodaj novog radnika"
+},
+
+
+"workerEditor":{
+  "workerName":"Ime radnika",
+  "workerLastname":"Prezime radnika",
+  "workerPosition":"Radno mjesto",
+  "workerNamePlaceholder":"Dodaj ime radnika...",
+  "workerLastnamePlaceholder":"Dodaj prezime radnika...",
+  "AddCodeButtonLabel":"Dodaj radnika",
+  "SaveChangesButtonLabel":"Spremi promjene"
+},
+
+"suppliers":{
+  "supplierName":"Naziv dobavljača",
+  "contactPerson":"Kontak osoba",
+  "supplierRating":"Rejting",
+  "CreatedAt":"Datum kreiranja",
+  "Actions":"Akcije"
+},
+
+"addSupplier":
+{
+  "Heading":"Dodaj novog dobavljača"
+},
+
+"suppliersEditor":{
+  "supplierName":"Naziv dobavljača",
+  "supplierContactPerson":"Kontakt osoba",
+  "supplierAddress":"Adresa dobavljača",
+  "supplierRating":"Rejting",
+  "supplierContactPhone":"Kontakt telefon dobavljača",
+  "supplierContactEmail":"Kontakt e-mail dobavljača",
+  "AddCodeButtonLabel":"Dodaj dobavljača",
+  "SaveChangesButtonLabel":"Spremi promjene"
+}
+
+}
