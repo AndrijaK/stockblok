@@ -1,0 +1,110 @@
+{
+"_locale": "en-US",
+"_namespace": "common",
+"publicNav":{
+    "Languages": "Languages",
+    "Login": "Login",
+    "SignUp": "Sign Up"
+},
+
+"authNav":{
+      "Dashboard": "Dashboard",
+      "CodeList": "Code list",
+      "Workers": "Workers",
+      "Suppliers": "Suppliers",
+      "Invoices": "Invoices",
+      "Articles": "Articles",
+      "Storages": "Storages",
+      "ListCodes": "List codes",
+      "AddCode": "Add code",
+      "ListWorkers": "List workers",
+      "AddWorker": "Add worker",
+      "ListSuppliers": "List suppliers",
+      "AddSupplier": "Add supplier",
+      "ListInvoices": "List invoices",
+      "AddInvoice": "Add invoice",
+      "ListArticles": "List articles",
+      "AddArticle": "Add artilce",
+      "ListStorages": "List storages",
+      "AddStorage": "Add storage",
+      "Profile": "Profile",
+      "Logout": "Logout"
+},
+"dashboard":{
+  "Codes":"Codes",
+  "Workers":"Workers",
+  "Suppliers":"Suppliers",
+  "Invoices":"Invoices",
+  "Articles":"Articles",
+  "Storages":"Storages",
+  "Notifications":"Notifications"
+},
+
+"codelists":{
+  "Code":"Code",
+  "Description":"Description",
+  "CreatedAt":"Created at",
+  "Actions":"Actions"
+},
+
+"addCode":{
+  "Heading":"Add new code"
+},
+
+"codeListEditor":{
+  "CodeValue":"Code value",
+  "CodeDescription":"Code description",
+  "CodeValuePlaceholder":"Add code value...",
+  "CodeDescriptionPlaceholder":"Add code description...",
+  "AddCodeButtonLabel":"Add a code",
+  "SaveChangesButtonLabel":"Save Changes"
+},
+
+"workers":{
+  "Name":"Name",
+  "Lastname":"Lastname",
+  "Position":"Position",
+  "CreatedAt":"Created at",
+  "Actions":"Actions"
+},
+
+"addWorker":
+{
+  "Heading":"Add new worker"
+},
+
+"workerEditor":{
+  "workerName":"Worker name",
+  "workerLastname":"Worker lastname",
+  "workerPosition":"Worker position",
+  "workerNamePlaceholder":"Add worker name...",
+  "workerLastnamePlaceholder":"Add worker lastname...",
+  "AddCodeButtonLabel":"Add worker",
+  "SaveChangesButtonLabel":"Save Changes"
+},
+
+"suppliers":{
+  "supplierName":"Supplier name",
+  "contactPerson":"Contact person",
+  "supplierRating":"Rating",
+  "CreatedAt":"Created at",
+  "Actions":"Actions"
+},
+
+"addSupplier":
+{
+  "Heading":"New supplier"
+},
+
+"suppliersEditor":{
+  "supplierName":"Supplier name",
+  "supplierContactPerson":"Contact Person",
+  "supplierAddress":"Supplier address",
+  "supplierRating":"Rating",
+  "supplierContactPhone":"Supplier contact phone",
+  "supplierContactEmail":"Supplier contact e-mail",
+  "AddCodeButtonLabel":"Add supplier",
+  "SaveChangesButtonLabel":"Save Changes"
+}
+
+}
